@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Energía Renovable</h1>
+    </header>
+    <main>
+        <!-- Descripción -->
+        <section class="description">
+            <h2>Bienvenido a Gestión de Energía Renovable</h2>
+            <p>
+                Esta aplicación te permite analizar datos detallados sobre la producción y consumo de energía renovable a nivel global. 
+                Nuestro objetivo es proporcionarte herramientas para fomentar decisiones informadas hacia un futuro más sostenible.
+            </p>
+        </section>
+
+        <!-- Login y Registro -->
+        <section class="auth-section">
+            <button id="login-btn">Iniciar Sesión</button>
+            <button id="register-btn">Registrar</button>
+        </section>
+
+        <!-- Formulario dinámico -->
+        <section id="form-section" class="hidden">
+            <form id="auth-form">
+                <div id="form-content"></div>
+                <button type="submit" id="submit-btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Gestión de Energía Renovable</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
